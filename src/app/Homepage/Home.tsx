@@ -9,7 +9,7 @@ import Header from "./Header";
 const Home = () => (
   <div>
     <Head>
-      <title>Eastwood Anaba Ministries</title>
+      <title>Emmanuel Asare Ministries</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
