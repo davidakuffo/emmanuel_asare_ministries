@@ -1,6 +1,6 @@
 import Image from "next/image";
 const Header = () => (
-  <header className="flex justify-between items-center p-4 bg-white">
+  <header className="bg-white p-4 flex justify-between items-center">
     <div className="flex items-center">
       <Image
         src="/logo.png"
@@ -8,16 +8,13 @@ const Header = () => (
         width={50}
         height={50}
       />
-      <h1 className="ml-2 text-purple-700 font-bold">
-        Emmanuel Asare
-        <br />
-        Minitries
+      <h1 className="ml-2 text-purple-700 text-xl font-bold">
+        Eastwood Anaba Ministries
       </h1>
     </div>
-    <nav>
-      <button className="bg-gray-300 px-4 py-2 mr-2">PARTNER TODAY</button>
-      <button className="bg-gray-300 px-4 py-2 mr-2">ONLINE RADIO</button>
-      <button className="bg-gray-300 px-4 py-2">COVID-19</button>
+    <nav className="hidden md:flex space-x-4">
+      <button className="bg-gray-200 px-3 py-1 rounded">PARTNER</button>
+      <button className="bg-gray-200 px-3 py-1 rounded">ONLINE RADIO</button>
     </nav>
   </header>
 );
