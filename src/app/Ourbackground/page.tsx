@@ -2,16 +2,18 @@ import React from "react";
 import Image from "next/image";
 import { images } from "../Images";
 
-const EastwoodAnabaMinistries = () => {
+const EmmanuelAsareMinistries = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
       <header className="bg-white p-4 flex justify-between items-center">
         <div className="flex items-center">
-          <Image src={images.image2} alt="Emmanuel Asare Ministries" />
-          <h1 className="ml-2 text-purple-700 text-xl font-bold">
-            Emmanuel Asare Ministries
-          </h1>
+          <Image
+            src={images.image2}
+            alt="Emmanuel Asare Ministries"
+            width={281}
+            height={110}
+          />
         </div>
         <nav className="hidden md:flex space-x-4">
           <button className="bg-gray-200 px-3 py-1 rounded">PARTNER</button>
@@ -38,10 +40,10 @@ const EastwoodAnabaMinistries = () => {
         {/* Hero Section */}
         <div className="relative h-96 bg-gray-800 text-white flex items-center justify-center">
           <Image
-            src="/hero-image.jpg"
-            alt="Background"
-            layout="fill"
-            objectFit="cover"
+            src={images.image3}
+            alt="Emmanuel Asare Ministries"
+            width={281}
+            height={110}
           />
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="z-10 text-center">
@@ -55,11 +57,10 @@ const EastwoodAnabaMinistries = () => {
           <div className="flex flex-col md:flex-row gap-8">
             <div className="md:w-1/3">
               <Image
-                src="/founder-image.jpg"
-                alt="Founder"
-                width={300}
-                height={300}
-                className="rounded"
+                src={images.image1}
+                alt="Emmanuel Asare Ministries"
+                width={281}
+                height={110}
               />
             </div>
             <div className="md:w-2/3">
@@ -85,10 +86,10 @@ const EastwoodAnabaMinistries = () => {
       </main>
       {/* Footer */}
       <footer className="bg-purple-700 text-white p-4 text-center">
-        <p>Eastwood Anaba Ministries © {new Date().getFullYear()} | Webmail</p>
+        <p>Emmanuel Asare Ministries © {new Date().getFullYear()}</p>
       </footer>
     </div>
   );
 };
 
-export default EastwoodAnabaMinistries;
+export default EmmanuelAsareMinistries;
