@@ -1,10 +1,11 @@
 import Image from "next/image";
+import { images } from "../Images";
 const BookSection = () => (
   <section className="bg-blue-400 p-8 text-white">
     <div className="flex justify-between items-center">
       <div>
         <Image
-          src="/book-covers.png"
+          src={images.image4}
           alt="Satisfaction books"
           width={300}
           height={200}
