@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { images } from "../Images";
+import "./style.css";
 
 const EmmanuelAsareMinistries = () => {
   return (
@@ -16,36 +17,40 @@ const EmmanuelAsareMinistries = () => {
           />
         </div>
         <nav className="hidden md:flex space-x-4">
-          <button className="bg-gray-200 px-3 py-1 rounded">PARTNER</button>
-          <button className="bg-gray-200 px-3 py-1 rounded">
+          <button className="bg-gray-200 px-3 py-1 rounded-[1rem]">
+            PARTNER
+          </button>
+          <button className="bg-gray-200 px-3 py-1 rounded-[1rem]">
             ONLINE RADIO
           </button>
         </nav>
       </header>
       {/* Navigation */}
-      const NavBar = () = ; (
-      <nav className="bg-purple-700 text-white p-4">
-        <ul className="flex justify-between">
-          <li>WHO WE ARE</li>
-          <li>WHAT WE DO</li>
-          <li>GET INVOLVED</li>
-          <li>GROW YOUR FAITH</li>
-          <li>MEDIA CENTRE</li>
-          <li className="bg-yellow-200 text-black px-4 py-2">GIVE</li>
-        </ul>
-      </nav>
-      );
+      {
+        <nav className="bg-purple-700 text-white p-4">
+          <ul className="flex justify-between">
+            <li>WHO WE ARE</li>
+            <li>WHAT WE DO</li>
+            <li>GET INVOLVED</li>
+            <li>GROW YOUR FAITH</li>
+            <li>MEDIA CENTRE</li>
+            <li className="bg-yellow-200 text-black px-4 py-2 rounded-[1rem]">
+              GIVE
+            </li>
+          </ul>
+        </nav>
+      }
       {/* Main Content */}
       <main className="flex-grow">
         {/* Hero Section */}
-        <div className="relative h-96 bg-gray-800 text-white flex items-center justify-center">
-          <Image
+        <div className="  relative h-96 bg-gray-800 text-white flex items-center justify-center">
+          {/* <Image
             src={images.image3}
             alt="Emmanuel Asare Ministries"
-            width={281}
-            height={110}
-          />
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+            width={1080}
+            height={500}
+          /> */}
+          <div className=" img-edit absolute inset-0 bg-black opacity-50"></div>
           <div className="z-10 text-center">
             <h2 className="text-4xl font-bold mb-2">How it all started</h2>
             <h3 className="text-3xl">Background of Ministry</h3>
