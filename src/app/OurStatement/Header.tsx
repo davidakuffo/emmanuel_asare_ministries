@@ -11,8 +11,10 @@ const Header = () => (
       />
     </div>
     <nav className="hidden md:flex space-x-4">
-      <button className="bg-gray-200 px-3 py-1 rounded">PARTNER</button>
-      <button className="bg-gray-200 px-3 py-1 rounded">ONLINE RADIO</button>
+      <button className="bg-gray-200 px-3 py-1 rounded-[1rem]">PARTNER</button>
+      <button className="bg-gray-200 px-3 py-1 rounded-[1rem]">
+        ONLINE RADIO
+      </button>
     </nav>
   </header>
 );
