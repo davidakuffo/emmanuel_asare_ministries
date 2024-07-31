@@ -47,13 +47,13 @@ const SermonEventsPage = () => {
       {/* Hero Section */}
       <section
         className="relative h-96 bg-cover bg-center"
-        style={{ backgroundImage: "url('/api/placeholder/1200/400')" }}
+        // style={{ backgroundImage: "url('/api/placeholder/1200/400')" }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div className="  absolute inset-0 bg-black bg-opacity-50"></div>
         <div className="absolute inset-0 flex flex-col justify-center px-4 sm:px-6 lg:px-8">
           <div className="text-white max-w-3xl mx-auto text-center">
             <p className="text-sm uppercase mb-2">SERMON</p>
-            <h1 className="text-4xl sm:text-5xl font-bold mb-4">
+            <h1 className=" text-4xl sm:text-5xl font-bold mb-4">
               TAKE PART IN OUR SERMON
             </h1>
           </div>
