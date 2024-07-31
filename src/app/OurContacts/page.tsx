@@ -24,7 +24,7 @@ const ContactPage = () => {
         </nav>
       </header>
 
-      {/* Header */}
+      {/* Navabar */}
       <nav className="bg-sky-400 text-white p-4">
         <ul className="flex justify-between">
           <li>Home</li>
