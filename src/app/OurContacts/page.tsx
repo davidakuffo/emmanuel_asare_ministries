@@ -2,6 +2,7 @@ import React from "react";
 import { Facebook, Twitter, Linkedin } from "lucide-react";
 import Image from "next/image";
 import { images } from "../Images";
+import "./style.css";
 const ContactPage = () => {
   return (
     <div className="min-h-screen bg-gray-100">
@@ -39,13 +40,13 @@ const ContactPage = () => {
       </nav>
 
       {/* Hero Section */}
-      <div className="relative h-64 bg-gray-800 flex items-center justify-center">
-        <Image
+      <div className=" img-edit relative h-64 bg-gray-800 flex items-center justify-center">
+        {/* <Image
           src={images.image6}
           alt="Emmanuel Asare Ministries"
           width={281}
           height={110}
-        />
+        /> */}
         <div className="relative z-10 text-center text-white">
           <h1 className="text-4xl font-bold mb-2">GET IN TOUCH WITH</h1>
           <h2 className="text-5xl font-bold">OUR CHURCH</h2>
