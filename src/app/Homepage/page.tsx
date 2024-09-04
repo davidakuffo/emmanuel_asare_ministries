@@ -15,11 +15,12 @@ const Home = () => (
     </Head>
 
   <div className="mx-[0.8rem] mt-[0.8rem]">
+  <Header />
   <NavBar />
 
-    <Header />
+
   
-    <main>
+    <main className="mt-[10px]">
       <BookSection />
       {/* Add other sections here */}
     </main>

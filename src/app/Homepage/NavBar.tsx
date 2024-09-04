@@ -9,7 +9,7 @@ const NavBar = () => (
       </li>
       <li>
         <a href="/" className="px-[1rem] transition duration-700 hover:bg-white hover:text-black py-[20px] transition">
-          About Us
+          About
         </a>
       </li>
       <li>
@@ -24,7 +24,7 @@ const NavBar = () => (
       </li>
       <li>
         <a href="/" className="px-[1rem] transition duration-1000 hover:bg-white hover:text-black py-[20px] transition">
-          Contact Us
+          Contact
         </a>
       </li>
       </div> 
