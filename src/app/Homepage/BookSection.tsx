@@ -34,11 +34,11 @@ const BookCarousel = () => {
       <div className="flex justify-between items-center">
         <button
           onClick={handlePrev}
-          className="bg-black text-white px-4 py-2 mr-2"
+          className="bg-gray-900 text-white px-4 py-2 mr-1"  // Reduced margin-right to bring the button closer
         >
-          Previous
+          prev
         </button>
-        <div>
+        <div className="flex justify-center items-center">
           <Image
             src={carouselImages[currentIndex].src}
             alt={carouselImages[currentIndex].alt}
@@ -48,24 +48,25 @@ const BookCarousel = () => {
         </div>
         <button
           onClick={handleNext}
-          className="bg-black text-white px-4 py-2 ml-2"
+          className="bg-gray-900 text-white px-4 py-2 ml-1"  // Reduced margin-left to bring the button closer
         >
-          Next
+          next
         </button>
       </div>
       <div className="text-center mt-4">
-        <h2 className="text-4xl font-bold mb-4">Order Now!</h2>
-        <p className="text-2xl">+233 55 252 9504</p>
-        <div className="mt-4">
-          <button className="bg-black text-white px-4 py-2 mr-2">
-            Available at Amazon
+        <div className="">
+          <button className="bg-gray-900 rounded-[10px] text-white px-4 py-2 mr-2">
+            available on Amazon
           </button>
-          <button className="bg-black text-white px-4 py-2">
-            Available on Amazon Kindle
+          <button className="bg-gray-900 rounded-[10px] text-white px-4 py-2">
+            available on Amazon Kindle
           </button>
         </div>
-        <button className="bg-yellow-400 text-black px-8 py-2 mt-4">
-          Click Here
+        <h2 className="text-4xl font-bold mt-[10px] mb-4">Order Now!</h2>
+        <p className="text-[19px]">+233 55 252 9504</p>
+        
+        <button className="bg-yellow-400 rounded-[10px] text-black px-8 py-2 mt-4">
+          click here
         </button>
       </div>
     </section>

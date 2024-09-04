@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { images } from "../Images";
+
 const Header = () => (
-  <header className="bg-white p-4 flex justify-between items-center">
+  <header className="bg-white p-[5px] flex justify-between items-center">
     <div className="flex items-center">
       <Image
         src={images.image2}
@@ -11,9 +12,9 @@ const Header = () => (
       />
     </div>
     <nav className="hidden md:flex space-x-4">
-      <button className="bg-gray-200 px-3 py-1 rounded-[1rem]">PARTNER</button>
-      <button className="bg-gray-200 px-3 py-1 rounded-[1rem]">
-        ONLINE RADIO
+      <button className="bg-gray-800 px-3 py-2 text-white rounded-[10px]">Partner</button>
+      <button className="bg-gray-800 px-3 py-2 text-white rounded-[10px]">
+        Online radio
       </button>
     </nav>
   </header>
