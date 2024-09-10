@@ -9,41 +9,15 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { images } from "../Images";
+import Header from "../Homepage/Header";
+import NavBar from "../Homepage/NavBar";
 
 const SermonEventsPage = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white p-4 flex justify-between items-center">
-        <div className="flex items-center">
-          <Image
-            src={images.image2}
-            alt="Emmanuel Asare Ministries"
-            width={281}
-            height={110}
-          />
-        </div>
-        <nav className="hidden md:flex space-x-4">
-          <button className="bg-gray-200 px-3 py-1 rounded-[1rem]">
-            PARTNER
-          </button>
-          <button className="bg-gray-200 px-3 py-1 rounded-[1rem]">
-            ONLINE RADIO
-          </button>
-        </nav>
-      </header>
-      <nav className="bg-sky-400 text-white p-4">
-        <ul className="flex justify-between">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Sermons</li>
-          <li>Events</li>
-          <li>Contact Us</li>
-          <button className="bg-amber-300 text-black px-4 py-2 rounded-[1rem]">
-            GIVE
-          </button>
-        </ul>
-      </nav>
+      <Header/>
+      <NavBar/>
       {/* Hero Section */}
       <section
         className="relative h-96 bg-cover bg-center"

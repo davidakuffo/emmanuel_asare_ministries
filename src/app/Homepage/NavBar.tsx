@@ -8,22 +8,22 @@ const NavBar = () => (
         </a>
       </li>
       <li>
-        <a href="/" className="px-[1rem] transition duration-700 hover:bg-white hover:text-black py-[20px] transition">
+        <a href="/About_Us" className="px-[1rem] transition duration-700 hover:bg-white hover:text-black py-[20px] transition">
           About
         </a>
       </li>
       <li>
-        <a href="/" className="px-[1rem] transition duration-700 hover:bg-white hover:text-black py-[20px] transition">
+        <a href="/Sermon" className="px-[1rem] transition duration-700 hover:bg-white hover:text-black py-[20px] transition">
           Sermons
         </a>
       </li>
       <li>
-        <a href="/" className="px-[1rem] transition duration-700 hover:bg-white hover:text-black py-[20px] transition">
+        <a href="/Events" className="px-[1rem] transition duration-700 hover:bg-white hover:text-black py-[20px] transition">
           Events
         </a>
       </li>
       <li>
-        <a href="/" className="px-[1rem] transition duration-1000 hover:bg-white hover:text-black py-[20px] transition">
+        <a href="/OurContacts" className="px-[1rem] transition duration-1000 hover:bg-white hover:text-black py-[20px] transition">
           Contact
         </a>
       </li>
