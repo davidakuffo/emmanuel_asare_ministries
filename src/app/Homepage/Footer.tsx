@@ -4,7 +4,10 @@ const Footer = () => (
       Become a Partner
     </button>
     <div>
-      <p>Emmanuel Asare Ministries © {new Date().getFullYear()}</p>
+      <p>
+        Emmanuel Asare Ministries © {new Date().getFullYear()} Service To
+        Humanity
+      </p>
     </div>
   </footer>
 );
