@@ -9,9 +9,9 @@ const EmmanuelAsareMinistries = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
-      <Header/>
-      <NavBar/>
-      
+      <Header />
+      <NavBar />
+
       {/* Main Content */}
       <main className="flex-grow">
         {/* Hero Section */}
