@@ -4,7 +4,7 @@ import { images } from "../Images";
 import NavBar from "../Homepage/NavBar";
 import Header from "../Homepage/Header";
 import "./style.css";
-
+import OrgChart from "./OrgChart";
 const EmmanuelAsareMinistries = () => {
   return (
     <div className="flex flex-col min-h-screen">
@@ -59,7 +59,11 @@ const EmmanuelAsareMinistries = () => {
               </p>
             </div>
           </div>
+          <div>
+            <OrgChart />
+          </div>
         </div>
+        {/* Executive Council & Board of Trustees Organizational Chart */}
       </main>
       {/* Footer */}
       <footer className="bg-sky-400 text-white p-4 text-center">
