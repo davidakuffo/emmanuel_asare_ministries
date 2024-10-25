@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 // Card Component Definition
 const Card = ({ className, children }) => {
@@ -21,26 +22,31 @@ const OrgChart = () => {
       name: "Apostle Emmanuel Yaw Asare",
       title: "President",
       organization: "Emmanuel Asare Ministries",
+      imagePath: "/images/CSI_2670 copy.jpg",
     },
     {
       name: "Mrs. Victoria Akushika Asare",
       title: "Chairperson",
       organization: "",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
     {
       name: "Rev. Alfred Kwabena Zidol",
       title: "Member",
       organization: "",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
     {
       name: "Rev. Kwesi Wilson",
       title: "Member",
       organization: "",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
     {
       name: "Mrs. Margaret Agyei (ESQ)",
       title: "Member",
       organization: "",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
   ];
 
@@ -50,33 +56,45 @@ const OrgChart = () => {
       title: "Operation Manager",
       subTitle: "Member",
       extraTitle: "Chairperson",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
     {
       name: "Rev. Michael Nhyira",
       title: "Head of Missions",
       subTitle: "Member",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
     {
       name: "Mrs. Gifty Wandem",
       title: "Executive Secretary",
       subTitle: "Member",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
     {
       name: "Mr. Brain Elorm Korgah",
       title: "Chief Financial Officer",
       subTitle: "Member",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
     {
       name: "Mrs. Margaret Agyei",
       title: "Education & Need Trust Fund",
       subTitle: "Member",
+      imagePath: "/members/emmanuel-asare.jpg",
     },
   ];
 
-  const MemberCard = ({ name, title, organization, subTitle, extraTitle }) => (
-    <Card className="w-64 bg-white">
+  const MemberCard = ({
+    name,
+    title,
+    organization,
+    subTitle,
+    extraTitle,
+    imagePath,
+  }) => (
+    <Card className="w-64 bg-white hover:shadow-lg transition-shadow duration-300">
       <CardContent className="p-4">
-        <div className="w-full h-48 bg-gray-200 mb-4"></div>
+        <div className="relative w-full h-48 mb-4 overflow-hidden rounded-md bg-gray-100"></div>
         <div className="text-center">
           <h3 className="font-bold text-sm">{name}</h3>
           <p className="text-sm text-gray-600 mt-1">{title}</p>
