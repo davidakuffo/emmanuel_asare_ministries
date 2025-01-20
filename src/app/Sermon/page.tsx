@@ -11,13 +11,13 @@ import Image from "next/image";
 import { images } from "../Images";
 import Header from "../Homepage/Header";
 import NavBar from "../Homepage/NavBar";
-
+import firebase from "firebase/compat/app";
 const SermonEventsPage = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <Header/>
-      <NavBar/>
+      <Header />
+      <NavBar />
       {/* Hero Section */}
       <section
         className="relative h-96 bg-cover bg-center"
